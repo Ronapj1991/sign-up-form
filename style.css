@@ -1,0 +1,106 @@
+  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Phudu:wght@700&display=swap');
+
+  /* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+  */
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  .outerbox {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left-side {
+    background: url("https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 40%;
+  }
+
+  .logo-box {
+    display: flex;
+    margin-top: 30%;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(140, 137, 137, 0.289);
+  }
+
+  .logo-content {
+    margin: auto auto;
+    font-family: 'Courier Prime', monospace;
+    font-family: 'Phudu', cursive;
+    font-size: 50px;
+    color: aliceblue;
+  }
+
+  .footer-box {
+    height: 50%;
+    position: relative;
+  }
+
+  .left-footer {
+    padding-left: 10%;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    margin-left: 18%;
+    margin-right: 18%;
+  }
+
+  .left-footer > span {
+    text-decoration: underline;
+  }
+
+
+
+  .right-side {
+    border: 1px solid blue;
+    width: 60%;
+  }
