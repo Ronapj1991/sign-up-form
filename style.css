@@ -182,3 +182,27 @@ table {
     height: 30%;
     background-color: rgba(178, 179, 179, 0.263);
   }
+
+  button {
+    height: 26%;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid rgba(39, 82, 39, 0.843);
+    background-color: rgba(39, 82, 39, 0.843);
+    color: aliceblue;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-bottom: 25px;
+  }
+
+  .bottom p {
+    margin-left: 5%;
+    font-size: 1.1em;
+  }
+
+  .bottom p a {
+    color: rgba(39, 82, 39, 0.843);
+    text-decoration: none;
+  }
