@@ -31,9 +31,35 @@
           <p>You <span class="italic">know</span> you want to.</p>
         </div>
       </div>
-      <div class="mid"></div>
+      <div class="mid">
+        <p>Let's do this!</p>
+          <form class="form">
+            <div class="label-container">
+              <label for="first-name">FIRST NAME</label>
+              <label for="last-name">LAST NAME</label>
+            </div>
+            <span class="left-input"><input type="text" id="first-name"></span>
+            <span><input type="text" id="last-name"></span>
+            <div class="label-container">
+              <label for="email">EMAIL</label>
+              <label for="phone-number">PHONE NUMBER</label>
+            </div>
+            <span class="left-input"><input type="email" id="email"
+              pattern=".+@globex\.com"></span>
+            <span><input type="tel" id="phone-number" name="phone-number"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></span>
+            <div class="label-container">
+              <label for="password">PASSWORD</label>
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+            </div>
+            <input type="password" id="password" class="" name="password" onkeyup='check();'>
+            <input type="password" id="confirm-password" name="confirm-password" onkeyup='check();'>
+            <div class="error-output"></div>
+          </form>
+      </div>
       <div class="bottom"></div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>

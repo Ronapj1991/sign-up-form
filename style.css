@@ -125,8 +125,59 @@ table {
 
   .mid {
     height: 40%;
+    
+  }
+
+  .mid > p {
+    padding-left: 5%;
+    padding-top: 10px;
+    font-size: 1.5em;
   }
   
+  .form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .label-container {
+   padding-left: 5%;
+   padding-top: 20px;
+  }
+
+  .label-container label:nth-child(2) {
+    padding-left: 218px;
+  }
+
+  .left-input {
+    padding-left: 5%;
+    padding-right: 19%;
+  }
+
+  .label-container label[for="phone-number"] {
+    padding-left: 263px;
+  }
+
+  .label-container label[for="confirm-password"] {
+    padding-left: 225px;
+  }
+
+  input[id="password"] {
+    margin-left: 5%;
+  }
+
+  input[id="confirm-password"] {
+    margin-left: 146px;
+  }
+
+  .error {
+    border: 1.5px solid red;
+  }
+
+  .error-output {
+    color: red;
+    margin-left: 5%;
+    font-size: 0.8em;
+  }
+
   .bottom {
     height: 30%;
     background-color: rgba(178, 179, 179, 0.263);
